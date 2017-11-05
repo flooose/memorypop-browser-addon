@@ -35,11 +35,11 @@ module.exports = function(config) {
     basePath: 'src',
 
     files: [
-      'index.spec.js'
+      '*.spec.js'
     ],
 
     preprocessors: {
-      'index.spec.js': ['webpack']
+      '*.spec.js': ['webpack']
     },
 
     webpack: {
@@ -60,8 +60,5 @@ module.exports = function(config) {
         ]
       }
     },
-    webpackServer: {
-      noInfo: true //please don't spam the console when running in karma!
-    }
   })
 };
