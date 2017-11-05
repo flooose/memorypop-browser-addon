@@ -10,7 +10,7 @@
     "redux": "^3.7.2"
   },
   "scripts": {
-    "start": "echo '\nIntentially left!!!\n'",
+    "start": "node ./dev-app.js",
     "build": "webpack --config webpack.config.js",
     "test": "karma start"
   },
